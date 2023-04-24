@@ -1,4 +1,29 @@
+body {
+    background-color: navy;
+    color: whitesmoke;
+    padding: 1% 2%;
+    box-sizing: border-box;
+}
 img {
     width: 200px; 
     border-radius: 50%;
 }
+h4{
+    padding-top: 2%;
+    
+}
+p {
+    margin: 0 1% 1% 1%;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+/* colors options
+https://coolors.co/palette/ffffff-00171f-003459-007ea7-00a8e8
+https://coolors.co/palette/0b132b-1c2541-3a506b-5bc0be-6fffe9
+https://coolors.co/b01724-d31c2c-bb203a-902247-62235f-1e2c67-332f65-f7b227 
+https://coolors.co/353535-3c6e71-ffffff-d9d9d9-284b63 */

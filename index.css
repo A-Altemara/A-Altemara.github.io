@@ -25,6 +25,10 @@ section {
 section p {
     margin: 0;
 }
+section div {
+    display: flex;
+    flex-direction: column;
+}
 footer {
     display: flex;
     align-items: center;

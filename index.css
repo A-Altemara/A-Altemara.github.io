@@ -1,8 +1,15 @@
 body {
-    background-color: navy;
     color: whitesmoke;
-    padding: 1% 2%;
     box-sizing: border-box;
+    background-color: #161234;
+}
+nav {
+    padding: 2%;
+}
+.hero {
+    background-image: url(./Images/cut_vecteezy_cherry-blossom-at-night_17274595.jpg);
+    /* Art by Egg Vectors by Vecteezy */
+   background-size: cover;
 }
 img {
     width: 200px; 

@@ -1,50 +1,68 @@
 body {
-    color: whitesmoke;
-    box-sizing: border-box;
-    background-color: #161234;
+  color: whitesmoke;
+  box-sizing: border-box;
+  background-color: #161234;
 }
 nav {
-    padding: 2%;
+  padding: 2%;
 }
 .hero {
-    background-image: url(./Images/cut_vecteezy_cherry-blossom-at-night_17274595.jpg);
-    /* Art by Egg Vectors by Vecteezy */
-   background-size: cover;
+  background-image: url(./Images/vecteezy_cherry-blossom-at-night_17274595.jpg);
+  /* Art by Egg Vectors by Vecteezy */
+  background-size: cover;
+}
+h2 {
+  width: 40%;
+  padding-left: 2%;
+  padding-top: 5%;
+}
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 img {
-    width: 200px; 
-    border-radius: 50%;
+  width: 200px;
+  border-radius: 50%;
 }
-h4{
-    padding-top: 2%;
-    
+h4 {
+  padding-top: 2%;
+}
+.bio {
+  margin: 2%;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+.bio div {
+  width: 75%;
+  outline: 1px solid red;
+}
+.bio img {
+  width: 400px;
 }
 p {
-    margin: 0 1% 1% 1%;
+  margin: 0 1% 1% 1%;
 }
-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	gap: 10px;
-
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3%;
+  margin: 5%;
 }
-section p {
-    margin: 0;
+.projects section p {
+  margin: 0;
 }
-section div {
-    display: flex;
-    flex-direction: column;
+.projects section div {
+  display: flex;
+  flex-direction: column;
 }
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2%;
+  font-size: 1.5rem;
 }
 
-/* colors options
-https://coolors.co/palette/ffffff-00171f-003459-007ea7-00a8e8
-https://coolors.co/palette/0b132b-1c2541-3a506b-5bc0be-6fffe9
-https://coolors.co/b01724-d31c2c-bb203a-902247-62235f-1e2c67-332f65-f7b227 
-https://coolors.co/353535-3c6e71-ffffff-d9d9d9-284b63 */

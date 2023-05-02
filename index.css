@@ -11,6 +11,12 @@ nav {
   /* Art by Egg Vectors by Vecteezy */
   background-size: cover;
 }
+.custom-btn {
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  margin-left: 15%;
+  margin-top: 1%;
+}
 h2 {
   width: 40%;
   padding-left: 2%;
@@ -20,6 +26,7 @@ iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2%;
 }
 img {
   width: 200px;
@@ -27,22 +34,26 @@ img {
 }
 h4 {
   padding-top: 2%;
+  font-size: 2.5rem;
+  margin-bottom: 1%;
 }
-.bio {
+#bio {
   margin: 2%;
   display: flex;
-  /* flex-direction: column; */
-  flex-wrap: wrap;
 }
-.bio div {
-  width: 75%;
-  outline: 1px solid red;
+#bio div {
+  display: flex;
+  flex-direction: column;
 }
-.bio img {
+#bio img {
   width: 400px;
 }
-p {
-  margin: 0 1% 1% 1%;
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.95rem;
+  margin: 2% 2% 0% 0%;
 }
 .project {
   display: flex;
@@ -84,6 +95,7 @@ p {
   margin: auto;
 }
 .contacts h3 {
+  margin-top: 0.5%;
   margin-bottom: 2%;
 }
 footer {

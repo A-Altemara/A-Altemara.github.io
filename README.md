@@ -13,7 +13,7 @@ This is where all the things I am proud of will eventually be displayed.  Curren
 
 
 #### Links to included Repos
-- PacMen Repo: https://a-altemara.github.io/PacMen-Exercise/
+- PacMen Repo: https://github.com/A-Altemara/PacMen-Exercise
 - Eyes Repo: https://github.com/A-Altemara/Eye_exercise
 - Bus Repo: https://github.com/A-Altemara/real-time-bus-tracker
 - Balls Repo: https://github.com/A-Altemara/FinalMovingBalls

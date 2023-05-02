@@ -147,3 +147,9 @@ iframe {
 	margin-top: 0.5%;
 	margin-bottom: 2%;
 }
+
+.contacts a {
+  background-color: #161234;
+	color: whitesmoke;
+	text-decoration: none;
+}
